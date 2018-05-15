@@ -1,0 +1,27 @@
+﻿Build started 21/11/2016 22:50:25.
+     1>Project "F:\coursework\ConsoleApplication9\ConsoleApplication9.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt Source.cpp
+         Source.cpp
+     1>Source.cpp(55): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>Source.cpp(234): error C3867: 'std::vector<std::thread,std::allocator<_Ty>>::size': non-standard syntax; use '&' to create a pointer to member
+                 with
+                 [
+                     _Ty=std::thread
+                 ]
+     1>Source.cpp(234): error C2446: '>': no conversion from 'int' to 'unsigned __int64 (__cdecl std::vector<std::thread,std::allocator<_Ty>>::* )(void) noexcept const'
+                 with
+                 [
+                     _Ty=std::thread
+                 ]
+         Source.cpp(234): note: There are no conversions from integral values to pointer-to-member values
+     1>Source.cpp(234): error C2296: '>': illegal, left operand has type 'unsigned __int64 (__cdecl std::vector<std::thread,std::allocator<_Ty>>::* )(void) noexcept const'
+                 with
+                 [
+                     _Ty=std::thread
+                 ]
+     1>Done Building Project "F:\coursework\ConsoleApplication9\ConsoleApplication9.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.49

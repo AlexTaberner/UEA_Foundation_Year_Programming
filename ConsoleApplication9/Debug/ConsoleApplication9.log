@@ -1,0 +1,10 @@
+﻿Build started 21/11/2016 22:40:29.
+     1>Project "F:\coursework\ConsoleApplication9\ConsoleApplication9.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /GL /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+     1>cl : Command line error D8016: '/ZI' and '/GL' command-line options are incompatible
+     1>Done Building Project "F:\coursework\ConsoleApplication9\ConsoleApplication9.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.25
